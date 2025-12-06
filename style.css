@@ -1,0 +1,92 @@
+/* style.css 기본 파일 */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #E3F2FD;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #0D47A1; /* A darker blue for contrast */
+}
+
+main {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main section {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1976D2; /* A medium blue */
+    border-bottom: 2px solid #E3F2FD;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #E3F2FD;
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    color: #0D47A1;
+}
+
+#call-to-action {
+    text-align: center;
+    background-color: #ffffff; /* Override card hover color change */
+}
+
+.button {
+    display: inline-block;
+    background-color: #1976D2;
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #0D47A1; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    background-color: #E3F2FD;
+    font-size: 0.9rem;
+    color: #555;
+}
